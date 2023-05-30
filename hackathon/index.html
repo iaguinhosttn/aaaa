@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="promo">
+            <h1>Flash Promo <span class="material-symbols-outlined">
+                flash_on
+                </span> itens com 70% de desconto.</h1>
+        </div>
+        <div class="topo">
+           <div class="one"><span class="material-symbols-outlined">
+                spa
+            </span>
+        </div> 
+        <div class="two">
+            <h1>Flower</h1>
+        </div> 
+        <div class="right">  
+            <a href="cadastro.html">Cadastre-se |</a>
+            <a href="login.html">Login</a>
+            <a href="Compras"><img src="imagens/icone (2).png"></a>  
+            <span class="material-symbols-outlined">
+                favorite
+            </span>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="erro.html">Home</a></li>
+            <li><a href="#">Catálogo</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <img class="photo" src="imagens/banner 1.png" alt="promo">
+        </div>
+        <section id="Produtos">
+            <div class="produtos">
+            <h2>Produtos em destaque</h2>
+            </div>
+            <div class="product">
+              <img src="imagens/produto1.jpg" alt="Produto 1">
+              <h3>Produto 1</h3>
+              <p>descricao</p>
+            </div>
+            <div class="product">
+              <img src="product2.jpg" alt="Produto 2">
+              <h3>Produto 2</h3>
+              <p>descricao</p>
+            </div>
+            <div class="product">
+              <img src="product3.jpg" alt="Produto 3">
+              <h3>Produto 3</h3>
+              <p>descricao</p>
+            </div>
+          </section>
+        
+    </main>
+    <footer>
+        <p>Todos os Direitos Reservados a Empresa nILÉO©. 2023</p>
+    </footer>
+    <script>
+        const botao = document.querySelector('.btn-fixed');
+    
+        window.addEventListener('scroll', function (event) {
+          if(window.scrolly == 0){
+            botao.classList.remove('visible');
+          } else {
+            botao.classList.add('visible');
+          }
+        })
+      </script>
+</body>
+</html>
